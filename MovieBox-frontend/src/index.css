@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  stroke-width: 0;
+  color: #dc3545;
+  stroke: currentColor;
+  fill: currentColor;
+  transition: transform 0.5;
+}
+
+.navbar-brand:hover {
+  color: #c82333 !important;
+}
+.navbar-brand:hover .icon {
+  transform: rotate(90deg);
+}
+
+.spinner {
+  min-height: 400px;
+  z-index: 10;
+}
